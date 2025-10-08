@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ATPAT Proctor</title>
+  <style>
+    body { margin:0; height:100vh; display:flex; background:#0b111d; color:#eee; }
+    #sidebar { width:300px; background:#111a29; padding:10px; display:flex; flex-direction:column; }
+    #main { flex:1; position:relative; overflow:hidden; } /* added overflow:hidden */
+    webview { width:100%; height:100%; border:none; }
+    #webwrap {
+      position:absolute; /* make it fullscreen inside #main */
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+    #preview { position:absolute; bottom:10px; right:10px; width:200px; height:140px; border:2px solid #fff; border-radius:6px; background:#000; object-fit:cover; }
+    #warnings { flex:1; overflow-y:auto; font-size:13px; margin-top:10px; background:#0f1622; border-radius:4px; padding:6px; }
+    button { margin-top:6px; padding:6px; border:none; border-radius:4px; background:#1971c2; color:#fff; cursor:pointer; }
+    button:disabled { opacity:0.5; cursor:default; }
+    #thankyou { display:none; align-items:center; justify-content:center; font-size:22px; color:#9ae6b4; height:100%; }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <input id="link" placeholder="parent:ATPAT=ID" />
+    <button id="start">Start Test</button>
+    <button id="end" disabled>End Test</button>
+    <button id="download" disabled>Download Report</button>
+    <div id="warnings">No warnings yet.</div>
+  </div>
+  <div id="main">
+    <div id="webwrap"><div style="padding:20px;color:#888">Paste link and start</div></div>
+    <video id="preview" autoplay muted playsinline></video>
+    <div id="thankyou">✅ Thank you for giving the test!</div>
+  </div>
+  <script src="renderer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+</html>
+
