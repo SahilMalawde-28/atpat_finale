@@ -1,0 +1,16 @@
+{
+  "start_time": "Wed Oct  8 09:21:25 2025",
+  "end_time": "Wed Oct  8 09:22:14 2025",
+  "no_face": 5,
+  "multi_face": 0,
+  "off_gaze": 0,
+  "alt_tab": 0,
+  "audio_events": 9,
+  "proofs": [
+    "/home/sahil/se/python/out/noface_1759895487_2c409f.jpg",
+    "/home/sahil/se/python/out/noface_1759895497_c341bf.jpg",
+    "/home/sahil/se/python/out/noface_1759895508_67e804.jpg",
+    "/home/sahil/se/python/out/noface_1759895518_4f5798.jpg",
+    "/home/sahil/se/python/out/noface_1759895528_74a055.jpg"
+  ]
+}

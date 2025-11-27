@@ -1,0 +1,56 @@
+{
+  "start_time": "Fri Nov  7 11:45:12 2025",
+  "end_time": "Fri Nov  7 11:46:51 2025",
+  "no_face": 5,
+  "multi_face": 1,
+  "off_gaze": 0,
+  "alt_tab": 0,
+  "typing_events": 55,
+  "typing_flags": 1,
+  "avg_wpm": 7.3,
+  "backspace_ratio": 0.0,
+  "mean_interval": 0.08,
+  "std_interval": 0.046,
+  "key_density": 12.836,
+  "burst_count": 49,
+  "idle_time_ratio": 0.0,
+  "constant_typing_flags": 1,
+  "audio_events": 43,
+  "proofs": [
+    {
+      "type": "CameraOff",
+      "path": "/home/sahil/se/out/camera_off_1762496113_40da4a.jpg",
+      "ts": 1762496113156
+    },
+    {
+      "type": "MultiFace",
+      "path": "/home/sahil/se/out/multiface_1762496123_38cbc7.jpg",
+      "ts": 1762496123538
+    },
+    {
+      "type": "NoFace",
+      "path": "/home/sahil/se/out/noface_1762496154_0e2f37.jpg",
+      "ts": 1762496154766
+    },
+    {
+      "type": "NoFace",
+      "path": "/home/sahil/se/out/noface_1762496170_50219f.jpg",
+      "ts": 1762496170191
+    },
+    {
+      "type": "NoFace",
+      "path": "/home/sahil/se/out/noface_1762496185_312a7d.jpg",
+      "ts": 1762496185632
+    },
+    {
+      "type": "NoFace",
+      "path": "/home/sahil/se/out/noface_1762496195_fb57f8.jpg",
+      "ts": 1762496195906
+    },
+    {
+      "type": "NoFace",
+      "path": "/home/sahil/se/out/noface_1762496207_d7aaec.jpg",
+      "ts": 1762496207386
+    }
+  ]
+}
